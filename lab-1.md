@@ -76,7 +76,7 @@ To log out:
 In this part we'll demonstrate how to copy files back and forth between your computer and the
 remote server. We do this through the command `scp`
 
-First, create a file called `WhereAmI.java` and write the following inside:
+First, create a file called on your computer called `WhereAmI.java` and write the following inside:
 
 ```
 class WhereAmI {
