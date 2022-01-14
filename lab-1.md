@@ -143,6 +143,8 @@ The result should something like this:
 
 ![Image](/assets/quote-ls.png)
 
+You can also use semicolons to run multiple commands on the same line. For example:
 
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-
+Finally, you can use the up-arrow on your keyboard to recall previous commands!
