@@ -1,7 +1,5 @@
 ## Part 1. Getting set up
 
----
-
 It is recommended to connect through Visual Studios Code. Follow the
 link below to learn how to get set up with Visual Studio Code
 
@@ -35,7 +33,6 @@ to other computers with this account.
 
 ## Part 2. Remotely connecting
 
----
 
 Open a terminal in VSCode (Ctrl or Command + ` or use the Terminal → New Terminal menu option)
 
@@ -59,7 +56,6 @@ Type `yes` and then enter your password. Your terminal should look something lik
 
 ## Part 3. Getting comfortable with your environment
 
----
 Experiment with some commands! Try the following:
 
 * `cd ~`
@@ -81,7 +77,6 @@ To log out:
 
 ## Part 4. Moving files over SSH with scp
 
---- 
 In this part we'll demonstrate how to copy files back and forth between your computer and the
 remote server. We do this through the command `scp`
 
@@ -109,7 +104,6 @@ is in your home directory! It should look something like this:
 
 ## Part 5. SSH Keys
 
----
 
 To avoid having to enter in our password every time we run commands to the remote server, we can implement `ssh` keys. 
 We do this through a program called `ssh-keygen` that creates a public key and a private key. After the keys are instantiated
@@ -124,4 +118,4 @@ Make sure to leave the passphrase empty and enter the file in which to save the 
 
 This should generate the keys randomart. It should look something like this: 
 
-[Image](/assets/ssh-randomart.png)
+![Image](/assets/ssh-randomart.png)
