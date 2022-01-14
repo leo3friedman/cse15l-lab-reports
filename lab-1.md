@@ -9,7 +9,6 @@ When installed, your open Visual Studio Code:
 
 ![Image](assets/visualStudiosGettingStarted.png)
 
-
 Look up your course-specific account for CSE15L at this link: https://sdacs.ucsd.edu/~icc/index.php
 
 If this is your first time, you may need to set up your ETS account for this class by
@@ -29,10 +28,7 @@ to other computers with this account.
 
 [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
-
-
 ## Part 2. Remotely connecting
-
 
 Open a terminal in VSCode (Ctrl or Command + ` or use the Terminal → New Terminal menu option)
 
@@ -104,7 +100,6 @@ is in your home directory! It should look something like this:
 
 ## Part 5. SSH Keys
 
-
 To avoid having to enter in our password every time we run commands to the remote server, we can implement `ssh` keys. 
 We do this through a program called `ssh-keygen` that creates a public key and a private key. After the keys are instantiated
 you can copy the public key to a location on the server and the private key to a location on the client. Then `ssh` can verify
@@ -119,3 +114,21 @@ Make sure to leave the passphrase empty and enter the file in which to save the 
 This should generate the keys randomart. It should look something like this: 
 
 ![Image](/assets/ssh-randomart.png)
+
+If you are on Windows, make sure to follow the `ssh-add` steps here: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation 
+
+Next, we need to copy the *public key* to the `.ssh` directory on the server. To do so, connect to the server then enter
+the following command: 
+
+`$ mkdir .ssh`
+
+Then logout with `$ logout`
+
+When you are back on the client, copy your *public key* to the server. Use this command: 
+`scp path cs15lwi22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys` where "path" is the path to your public key.
+
+Now when you try to connect to the server you wont be prompted with a password! It should look something like this: 
+
+![Image](/assets/no-password.png)
+
+
