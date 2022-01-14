@@ -131,4 +131,18 @@ Now when you try to connect to the server you wont be prompted with a password! 
 
 ![Image](/assets/no-password.png)
 
+# part 6 - Making remote running more pleasant
+
+Some quick tips!
+
+You can write a command in quotes at the end of an `ssh` call to run it directly on the remote server and then logout. For example:
+
+`ssh cs15lwi22xxx@ieng6.ucsd.edu "ls"`
+
+The result should something like this: 
+
+![Image](/assets/quote-ls.png)
+
+
+
 
