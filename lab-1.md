@@ -9,7 +9,7 @@ When installed, your open Visual Studio Code:
 
 ![Image](assets/visualStudiosGettingStarted.png)
 
-Look up your course-specific account for CSE15L at this link: https://sdacs.ucsd.edu/~icc/index.php
+Look up your course-specific account for CSE15L at this link: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 
 If this is your first time, you may need to set up your ETS account for this class by
 changing your password.
@@ -115,7 +115,7 @@ This should generate the keys randomart. It should look something like this:
 
 ![Image](/assets/ssh-randomart.png)
 
-If you are on Windows, make sure to follow the `ssh-add` steps here: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation 
+If you are on Windows, make sure to follow the `ssh-add` steps here: [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
 Next, we need to copy the *public key* to the `.ssh` directory on the server. To do so, connect to the server then enter
 the following command: 
