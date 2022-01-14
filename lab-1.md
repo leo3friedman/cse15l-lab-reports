@@ -105,8 +105,23 @@ Next, in the terminal from the directory where you made this file, run the follo
 You will be prompted with your password so type it in. Then, run `ls`. You should see the file
 is in your home directory! It should look something like this: 
 
-![image]()
+![image](/assets/scp.png)
 
 ## Part 5. SSH Keys
 
 ---
+
+To avoid having to enter in our password every time we run commands to the remote server, we can implement `ssh` keys. 
+We do this through a program called `ssh-keygen` that creates a public key and a private key. After the keys are instantiated
+you can copy the public key to a location on the server and the private key to a location on the client. Then `ssh` can verify
+your identity with the location of the files, bypassing the password! 
+
+The first step is to enter the following command on your client:
+
+`$ ssh-keygen`
+
+Make sure to leave the passphrase empty and enter the file in which to save the key.
+
+This should generate the keys randomart. It should look something like this: 
+
+[Image](/assets/ssh-randomart.png)
