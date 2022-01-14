@@ -1,6 +1,6 @@
 ## Part 1. Getting set up
 
-It is recommended to connect through Visual Studios Code. Follow the
+It is recommended to use Visual Studios Code. Follow the
 link below to learn how to get set up with Visual Studio Code
 
 [Install Visual Studio Code](https://code.visualstudio.com/)
