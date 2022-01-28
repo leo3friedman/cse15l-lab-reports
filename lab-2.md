@@ -59,6 +59,6 @@ is one index to the left of the open parenthesis before grabbing a link.
 The failure-inducing input which caused the symptom of a broken link to be printed was
 a markdown file which contained a link that had a space in it. The bug here was that our
 program assumed that any text in between a set of parenthesis meant it was a viable link.
-Links, however, don't contain spaces. To account for this we added a check that confirmed that 
+Links, however, don't contain spaces. To account for this we added a check that confirms that 
 the index of a space in the text in between the parenthesis was -1 before adding it to the
-toReturn value;
+toReturn value.
