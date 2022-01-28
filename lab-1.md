@@ -131,7 +131,7 @@ Now when you try to connect to the server you wont be prompted with a password! 
 
 ![Image](/assets/no-password.png)
 
-# part 6 - Making remote running more pleasant
+## part 6 - Making remote running more pleasant
 
 Some quick tips!
 
