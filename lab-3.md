@@ -1,4 +1,4 @@
-#Lab Choice: Group Choice 3 – Copy Whole Directories
+# Lab Choice: Group Choice 3 – Copy Whole Directories
 
 ## Part 1. markdown-parse is current working directory
 ![mardown parse as current dir](assets3/mp-cur-dir.png)
